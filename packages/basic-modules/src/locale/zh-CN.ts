@@ -40,6 +40,9 @@ export default {
   fullScreen: {
     title: '全屏',
   },
+  // clickLayTxt: {
+  //   title: '一键排版',
+  // },
   header: {
     title: '标题',
     text: '正文',

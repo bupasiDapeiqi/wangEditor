@@ -1,6 +1,12 @@
 {
-  "name": "@wangeditor-team/wangeditor",
-  "private": true,
+  "name": "wangeditor-fan-yu",
+  "version": "1.0.1",
+  "keywords": [
+    "wangeditor-fan-yu",
+    "富文本"
+  ],
+  "description": "wangeditor-fan-yu",
+  "private": false,
   "scripts": {
     "test": "cross-env NODE_OPTIONS=--unhandled-rejections=warn jest --detectOpenHandles --passWithNoTests",
     "test-c": "cross-env NODE_OPTIONS=--unhandled-rejections=warn jest --coverage",

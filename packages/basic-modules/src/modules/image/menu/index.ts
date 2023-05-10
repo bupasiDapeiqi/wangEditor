@@ -9,6 +9,7 @@ import EditImage from './EditImage'
 import ViewImageLink from './ViewImageLink'
 import ImageWidth30 from './Width30'
 import ImageWidth50 from './Width50'
+import ImageWidth80 from './Width80'
 import ImageWidth100 from './Width100'
 import { genImageMenuConfig } from './config'
 
@@ -58,6 +59,13 @@ export const imageWidth50MenuConf = {
   key: 'imageWidth50',
   factory() {
     return new ImageWidth50()
+  },
+}
+
+export const imageWidth80MenuConf = {
+  key: 'imageWidth80',
+  factory() {
+    return new ImageWidth80()
   },
 }
 

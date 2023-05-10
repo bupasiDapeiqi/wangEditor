@@ -39,7 +39,6 @@ export const withDOM = <T extends Editor>(editor: T) => {
     el.focus({ preventScroll: true })
 
     IS_FOCUSED.set(e, true)
-
     // 恢复选区
     if (isEnd) {
       // 选区定位到结尾
@@ -190,6 +189,7 @@ export const withDOM = <T extends Editor>(editor: T) => {
   }
 
   e.fullScreen = () => {
+    console.log('全屏')
     if (e.isFullScreen) return
 
     let $toolbarBox: Dom7Array | null = null
